@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Satisfy&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;
+
+}
+
+.tela-login {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: right;
+  background: linear-gradient(to right, #0d1629 50% , #f4f6f9 50%);
+  padding-top: 70px;
+
+}
+
+
+.Lista-item {
+    position: relative;
+    top: -40px;
+}
+
+.container {
+  min-height: 20px;
+  padding: 15%;
+  border: transparent;
+}
+
+.Email, 
+.Senha {
+  padding-top: 15px;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 16px;
+}
+
+input.campo-texto {
+  background-color: #ffffff; 
+  border: 1px solid #cbd5e1; 
+  color: #000000;             
+  padding: 10px 14px; 
+  border-radius: 10px;
+  width: 100%;
+  box-sizing: border-box; 
+}
+
+.Email input,
+.Senha input {
+  margin: -2%;
+  width: 100%;
+  height: 45px;                     
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-left: 0%;
+  border: 1%;
+  outline: none;
+}
+
+.letra-email{
+    position: absolute;
+    top: 105px;
+    font-size: 11px;
+}
+
+.letra-senha{
+    position: relative;
+    top: -10px;
+    font-size: 11px;
+}
+
+.BotaoEntrar {
+    position: relative;
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 7px;
+    background-image: linear-gradient(90deg, #7025db, #6421c6);
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 5px 12px rgba(91, 32, 190, 0.35);
+    transition: 0.2s;
+    color: white;
+    font-size: 14px;
+    top: 20px;
+}
+
+.BotaoEntrar:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 7px 12px rgba(91, 32, 190, 0.35);
+}
+
+.BotaoEntrar:active {
+    transform: translateY();
+}
+
+.canto-esquerdo {
+    position: absolute;
+    top: 15%;
+    margin-left: 7%;
+    left: 0;
+    transform: scale(1.12)
+}
+
+.canto-direito {
+    position: relative;
+    margin-top: -30px;
+    width: 100%;
+    height: 100%;
+    margin-left: 15%;
+    transform: scale(1.30);
+}
+
+.introducao {
+    position: relative;
+    margin-left: -20px;
+    color: white;
+    font-size: 40px;
+    
+}
+
+.descricao {
+    position: relative;
+    margin-left: -20px;
+    color: rgb(173, 171, 171);
+    max-width: 330px;
+}
+
+.Cadastro-Senha {
+    padding-top: 20px;
+
+}
+
+.baixo {
+    position: relative;
+    color:rgb(173, 171, 171);
+    margin-left: -100px;
+    margin-top: 10px;
+    transform: scale(0.70);
+
+}
+
+
+.caixa-icone {
+  position: relative;
+  margin-left: -20px;
+  top: 75px;
+  width: 45px;                
+  height: 45px;               
+  background-color: #231647; 
+  border: 1px solid #432b85;     
+  border-radius: 12px;         
+  flex-shrink: 0;              
+}
+
+.icones {
+    margin-left: 40px;
+    color:rgb(173, 171, 171);
+    margin-top: 20px;
+}
+
+.laranja {
+    color: orange;
+    font-size: 60px;
+}
+
+.Esqueci-Senha {
+    position: relative;
+    top: 10px;
+    color: #7025db;
+    font-size: 12px;
+    margin-left: 7px;
+    text-decoration: none;
+}
+
+.Cadastro-Senha {
+    font-size: 12px;
+}
+
+.Cadastrar-se {
+    color: #7025db;
+    text-decoration: none;
+}
+
+.Cadastro-Senha {
+    margin-top: 40px;
+}
+
+.Logar {
+    position: relative;
+    top: -20px;
+    margin: 0;
+}
+
+.Logo {
+    position: relative;
+    margin-left: -20px;
+    top: -50px;
+    color: white;
+}
