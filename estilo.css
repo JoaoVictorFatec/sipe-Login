@@ -8,39 +8,38 @@
 
 }
 
-.tela-login {
+.login-screen {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   margin: 0;
   height: 100vh;
   display: flex;
   justify-content: right;
   background: linear-gradient(to right, #0d1629 50% , #f4f6f9 50%);
   padding-top: 70px;
-
 }
 
-
-.Lista-item {
-    position: relative;
-    top: -40px;
+.list-item {
+    transform: translateY(-40px);
 }
 
 .container {
+  display: flex;
+  flex-wrap: wrap;
   min-height: 20px;
   padding: 15%;
   border: transparent;
 }
 
-.Email, 
-.Senha {
+.email, 
+.password {
   padding-top: 15px;
   width: 100%;
   max-width: 400px;
   margin-bottom: 16px;
 }
 
-input.campo-texto {
+input.text-field {
   background-color: #ffffff; 
   border: 1px solid #cbd5e1; 
   color: #000000;             
@@ -50,9 +49,9 @@ input.campo-texto {
   box-sizing: border-box; 
 }
 
-.Email input,
-.Senha input {
-  margin: -2%;
+.email input,
+.password input {
+  margin: -1%;
   width: 100%;
   height: 45px;                     
   box-sizing: border-box;
@@ -62,20 +61,19 @@ input.campo-texto {
   outline: none;
 }
 
-.letra-email{
+.email-text {
     position: absolute;
-    top: 105px;
+    top: 40px;
     font-size: 11px;
 }
 
-.letra-senha{
+.password-text {
     position: relative;
     top: -10px;
     font-size: 11px;
 }
 
-.BotaoEntrar {
-    position: relative;
+.login-button {
     width: 100%;
     height: 45px;
     border: none;
@@ -88,66 +86,62 @@ input.campo-texto {
     transition: 0.2s;
     color: white;
     font-size: 14px;
-    top: 20px;
+    transform: translateY(10px);
 }
 
-.BotaoEntrar:hover {
+.login-button:hover {
     transform: translateY(-1px);
     box-shadow: 0 7px 12px rgba(91, 32, 190, 0.35);
 }
 
-.BotaoEntrar:active {
+.login-button:active {
     transform: translateY();
 }
 
-.canto-esquerdo {
+.left-corner {
     position: absolute;
+    flex-grow: 1;
     top: 15%;
     margin-left: 7%;
     left: 0;
-    transform: scale(1.12)
+    transform: scale(1.12);
+    gap: 20px;
 }
 
-.canto-direito {
-    position: relative;
-    margin-top: -30px;
+.right-corner {
+    margin-top: 50px;
     width: 100%;
     height: 100%;
     margin-left: 15%;
     transform: scale(1.30);
 }
 
-.introducao {
-    position: relative;
+.introduction {
     margin-left: -20px;
     color: white;
     font-size: 40px;
-    
 }
 
-.descricao {
-    position: relative;
+.description {
+    transform: translateY(0px);
     margin-left: -20px;
     color: rgb(173, 171, 171);
     max-width: 330px;
 }
 
-.Cadastro-Senha {
+.register-password {
     padding-top: 20px;
 
 }
 
-.baixo {
-    position: relative;
+.bottom {
     color:rgb(173, 171, 171);
-    margin-left: -100px;
-    margin-top: 10px;
     transform: scale(0.70);
-
+    margin-left: -100px;
+    margin-top: 20px;
 }
 
-
-.caixa-icone {
+.icon-box {
   position: relative;
   margin-left: -20px;
   top: 75px;
@@ -159,48 +153,47 @@ input.campo-texto {
   flex-shrink: 0;              
 }
 
-.icones {
+.icons {
     margin-left: 40px;
     color:rgb(173, 171, 171);
     margin-top: 20px;
 }
 
-.laranja {
+.orange {
     color: orange;
     font-size: 60px;
+    margin-left: -20px;
 }
 
-.Esqueci-Senha {
-    position: relative;
-    top: 10px;
+.forgot-password {
+    display: flex;
+    transform: translateY(10px);
     color: #7025db;
     font-size: 12px;
     margin-left: 7px;
     text-decoration: none;
 }
 
-.Cadastro-Senha {
+.register-password {
     font-size: 12px;
 }
 
-.Cadastrar-se {
+.register {
     color: #7025db;
     text-decoration: none;
 }
 
-.Cadastro-Senha {
+.register-password {
     margin-top: 40px;
 }
 
-.Logar {
-    position: relative;
-    top: -20px;
+.log-in {
+    transform: translateY(-70px);
     margin: 0;
 }
 
-.Logo {
-    position: relative;
+.logo {
     margin-left: -20px;
-    top: -50px;
+    transform: translateY(-40px);
     color: white;
 }
